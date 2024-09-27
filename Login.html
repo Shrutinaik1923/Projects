@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <style>
+        /* Reset default margins and set up the background */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container for the login form */
+        .login-container {
+            background-image: url('https://images.pexels.com/photos/459469/pexels-photo-459469.jpeg?cs=srgb&dl=basil-delicious-food-459469.jpg&fm=jpg');  -->/* Replace with the actual image path */
+            padding: 40px;
+            border-radius:10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 300px;
+        }
+
+        /* Heading style */
+        h2 {
+            color: black;
+            margin-bottom: 30px;
+        }
+
+        /* Container for each input field */
+        .input-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        /* Icon inside the input field */
+        .input-container .icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 10px;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        /* Input fields styling */
+        .input-container input {
+            width: 100%;
+            padding: 10px 10px 10px 40px; /* Left padding to make space for the icon */
+            border-radius: 20px;
+            border: none;
+            background-color: white;
+            color: #ffffff;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        /* Login button styling */
+        button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            background-color: #ffffff;
+            color: #0a1e28;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect for the button */
+        button:hover {
+            background-color: #32b590;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>USER LOGIN</h2>
+        <form>
+            <div class="input-container">
+                <span class="icon">&#128100;</span> 
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="input-container">
+                <span class="icon">&#128274;</span> 
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button type="submit">LOGIN</button>
+        </form>
+        <p class="signup-link">Dont have an Account? <a href="Registration.html">Sign Up</a></p>
+    </div>
+</body>
+</html>

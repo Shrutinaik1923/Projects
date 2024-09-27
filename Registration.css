@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0a1e28;/* Light blue background color */
+    font-family: 'Arial', sans-serif;
+}
+
+.signup-container {
+    background-color: #0a1e28;;
+    background-image: url('https://images.pexels.com/photos/459469/pexels-photo-459469.jpeg?cs=srgb&dl=basil-delicious-food-459469.jpg&fm=jpg'); -->/* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(146, 129, 129, 0.1);
+    position: relative;
+    color: #b01313;
+}
+
+.signup-form {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    
+   
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #050505;
+}
+
+p {
+    margin: 10px 0;
+    color: #191818;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.google-btn img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.or {
+    margin: 15px 0;
+    color:black;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #f0f2f5;
+}
+
+.terms {
+    margin: 15px 0;
+    text-align: left;
+    font-size: 12px;
+    color: #444;
+}
+
+.terms a {
+    color: hsl(210, 87%, 15%); /* Link color */
+    text-decoration: none;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background-color:white; /* Teal color for signup button */
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.signup-btn:hover {
+    background-color: green;
+}
+
+.signin-link {
+    margin: 20px 0 0;
+    font-size: 20px;
+    color: #0b0000;
+}
+
+.signin-link a {
+    color:blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+}
